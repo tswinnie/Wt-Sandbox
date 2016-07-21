@@ -1,0 +1,12 @@
+/Users/tyroneswinnie/Desktop/wt-3.3.5/Wt-SandboxExample/build/CMakeFiles/edit_cache.dir
+/Users/tyroneswinnie/Desktop/wt-3.3.5/Wt-SandboxExample/build/CMakeFiles/rebuild_cache.dir
+/Users/tyroneswinnie/Desktop/wt-3.3.5/Wt-SandboxExample/build/CMakeFiles/list_install_components.dir
+/Users/tyroneswinnie/Desktop/wt-3.3.5/Wt-SandboxExample/build/CMakeFiles/install.dir
+/Users/tyroneswinnie/Desktop/wt-3.3.5/Wt-SandboxExample/build/CMakeFiles/install/local.dir
+/Users/tyroneswinnie/Desktop/wt-3.3.5/Wt-SandboxExample/build/source/CMakeFiles/rebuild_cache.dir
+/Users/tyroneswinnie/Desktop/wt-3.3.5/Wt-SandboxExample/build/source/CMakeFiles/install/local.dir
+/Users/tyroneswinnie/Desktop/wt-3.3.5/Wt-SandboxExample/build/source/CMakeFiles/list_install_components.dir
+/Users/tyroneswinnie/Desktop/wt-3.3.5/Wt-SandboxExample/build/source/CMakeFiles/install.dir
+/Users/tyroneswinnie/Desktop/wt-3.3.5/Wt-SandboxExample/build/source/CMakeFiles/export-files.dir
+/Users/tyroneswinnie/Desktop/wt-3.3.5/Wt-SandboxExample/build/source/CMakeFiles/edit_cache.dir
+/Users/tyroneswinnie/Desktop/wt-3.3.5/Wt-SandboxExample/build/source/CMakeFiles/index.wt.dir

@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/tyroneswinnie/Desktop/wt-3.3.5/Wt-SandboxExample/source/main.cpp
+Wt/WApplication
+-
+Wt/WPushButton
+-
+Wt/WContainerWidget
+-
+
