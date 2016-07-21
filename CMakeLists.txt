@@ -5,3 +5,5 @@ PROJECT(Project_Name)
 SET (WT_CONNECTOR "wthttp" CACHE STRING "Connector used (wthttp or wtfcgi)")
 
 ADD_SUBDIRECTORY(source)
+
+

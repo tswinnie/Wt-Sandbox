@@ -26,15 +26,19 @@ WApplication* createApp(const WEnvironment &env){
     app->setTitle("Template Project");
 
     //CSS
-    app->useStyleSheet("CSS/bootstrap.min.css");
-    app->useStyleSheet("CSS/mdb.min.css");
-    app->useStyleSheet("CSS/style.css");
+    app->useStyleSheet("moz-transitions.css");
+    app->useStyleSheet("transitions.css");
+    app->useStyleSheet("webkit-transitions.css");
+    app->useStyleSheet("bootstrap.min.css");
+    app->useStyleSheet("mdb.min.css");
+    app->useStyleSheet("style.css");
+
 
     //JS
-    app->requireJQuery("JS/jquery-2.2.3.min.js");
-    app->require("JS/tether.min.js");
-    app->require("JS/bootstrap.min.js");
-    app->require("JS/mdb.min.js");
+    app->requireJQuery("jquery-2.2.3.min.js");
+    app->require("tether.min.js");
+    app->require("bootstrap.min.js");
+    app->require("mdb.min.js");
 
     app->root()->addWidget(new HelloWorld);
 
