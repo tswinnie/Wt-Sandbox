@@ -8,15 +8,25 @@ class HelloWorld : public WContainerWidget{
 
 public:
     HelloWorld(WContainerWidget *parent = 0);
+    void greetMe();
 };
 
 HelloWorld::HelloWorld(WContainerWidget *parent) : WContainerWidget(parent) {
 
     WContainerWidget *container = new WContainerWidget(this);
     WPushButton *button = new WPushButton;
-    button->setText("Hello, World!");
+    button->setText("Say Hello");
     button->setStyleClass("btn btn-primary");
     container->addWidget(button);
+
+    button->clicked().connect(this, &HelloWorld::greetMe);
+
+}
+
+void HelloWorld::greetMe() {
+
+    doJavaScript("alert('Hello There!');");
+
 
 }
 
