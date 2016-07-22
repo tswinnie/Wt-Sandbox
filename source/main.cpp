@@ -15,9 +15,14 @@ HelloWorld::HelloWorld(WContainerWidget *parent) : WContainerWidget(parent) {
 
     WContainerWidget *container = new WContainerWidget(this);
     WPushButton *button = new WPushButton;
-    button->setText("Say Hello");
+    button->setText("Greet");
     button->setStyleClass("btn btn-primary");
     container->addWidget(button);
+
+    WPushButton *button2 = new WPushButton;
+    button2->setText("New Feature Button");
+    button2->setStyleClass("btn btn-default");
+    container->addWidget(button2);
 
     button->clicked().connect(this, &HelloWorld::greetMe);
 
@@ -25,7 +30,7 @@ HelloWorld::HelloWorld(WContainerWidget *parent) : WContainerWidget(parent) {
 
 void HelloWorld::greetMe() {
 
-    doJavaScript("alert('Hello There Tyrone!');");
+    doJavaScript("alert('Hello There Tyrone Swinnie!');");
 
 
 }
