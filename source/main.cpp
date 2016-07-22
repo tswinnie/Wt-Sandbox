@@ -25,7 +25,7 @@ HelloWorld::HelloWorld(WContainerWidget *parent) : WContainerWidget(parent) {
 
 void HelloWorld::greetMe() {
 
-    doJavaScript("alert('Hello There!');");
+    doJavaScript("alert('Hello There Tyrone!');");
 
 
 }
