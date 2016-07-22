@@ -19,6 +19,11 @@ HelloWorld::HelloWorld(WContainerWidget *parent) : WContainerWidget(parent) {
     button->setStyleClass("btn btn-primary");
     container->addWidget(button);
 
+    WPushButton *button2 = new WPushButton;
+    button2->setText("New Feature Button");
+    button2->setStyleClass("btn btn-default");
+    container->addWidget(button2);
+
     button->clicked().connect(this, &HelloWorld::greetMe);
 
 }
