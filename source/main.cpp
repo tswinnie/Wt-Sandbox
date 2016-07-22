@@ -15,7 +15,7 @@ HelloWorld::HelloWorld(WContainerWidget *parent) : WContainerWidget(parent) {
 
     WContainerWidget *container = new WContainerWidget(this);
     WPushButton *button = new WPushButton;
-    button->setText("Say Hello");
+    button->setText("Greet");
     button->setStyleClass("btn btn-primary");
     container->addWidget(button);
 
